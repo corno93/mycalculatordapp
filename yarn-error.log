@@ -1,0 +1,38 @@
+Arguments: 
+  /home/alex/.nvm/versions/node/v12.20.1/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/alex/.local/share/solana/install/active_release/bin:/home/alex/Code/muck-around/adr-tools-3.0.0/src:/home/alex/.nvm/versions/node/v12.20.1/bin:/home/alex/.pyenv/plugins/pyenv-virtualenv/shims:/home/alex/.pyenv/bin:/home/alex/.poetry/bin:/home/alex/.local/share/solana/install/active_release/bin:/home/alex/.cargo/bin:/home/alex/.poetry/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  12.20.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+      "dependencies": {
+          "@project-serum/anchor": "^0.20.1"
+      },
+      "devDependencies": {
+          "chai": "^4.3.4",
+          "mocha": "^9.0.3",
+          "ts-mocha": "^8.0.0",
+          "@types/mocha": "^9.0.0",
+          "typescript": "^4.3.5"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
